@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Fork Hals -->
+<project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" remote="haloui" revision="seventeen" />
+<project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" remote="haloui" revision="seventeen" />
+<project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" remote="haloui" revision="seventeen" />
+
+</manifest>

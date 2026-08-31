@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Hals -->
+<remove-project path="hardware/qcom-caf/sm8750/audio/pal" />
+<remove-project path="hardware/qcom-caf/sm8750/audio/primary-hal" />
+<remove-project path="vendor/qcom/opensource/commonsys/audio" />
+
+</manifest>
