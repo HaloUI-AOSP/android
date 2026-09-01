@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Vendor stuff -->
-<remove-project path="vendor/lineage" />
 
 <!-- Hals -->
 <remove-project path="hardware/qcom-caf/sm8750/audio/pal" />
