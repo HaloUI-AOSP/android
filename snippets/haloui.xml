@@ -7,6 +7,7 @@
 <!-- Misc -->
 <project name="android_vendor_microg" path="vendor/microg" remote="haloui" revision="seventeen" />
 <project name="android_vendor_gapps" path="vendor/gapps" remote="haloui" revision="seventeen" />
+<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="haloui" revision="seventeen" />
 
 <!-- Fork Hals -->
 <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" remote="haloui" revision="seventeen" />
