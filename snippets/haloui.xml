@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Remove -->
+<remove-project path="frameworks/base" />
+<remove-project path="frameworks/native" />
+<remove-project path="system/core" />
+<remove-project path="system/fs/fs_mgr" />
+<remove-project path="vendor/lineage" />
+
+<!-- Frameworks -->
+<project name="android_frameworks_base" path="frameworks/base" remote="haloui" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+<project name="android_frameworks_native" path="frameworks/native" remote="haloui" groups="pdk,sysui-studio"  />
+
+<!-- System -->
+<project path="system/core" remote="haloui" name="android_system_core" groups="pdk" />
+<project path="system/fs/fs_mgr" remote="haloui" name="android_system_fs_fs_mgr" groups="pdk" />
+
 <!-- Vendor -->
 <project name="android_vendor_lineage" path="vendor/lineage" remote="haloui" revision="lineage-24.0" />
 
