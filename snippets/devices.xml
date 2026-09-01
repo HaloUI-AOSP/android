@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Onyx -->
+<project name="android_device_xiaomi_onyx" path="device/xiaomi/onyx" remote="halouidevices" revision="seventeen" />
+
+<project name="android_device_xiaomi_onyx-miuicamera" path="device/xiaomi/onyx-miuicamera" remote="halouidevices" revision="seventeen" />
+
+<project name="android_kernel_xiaomi_sm8735" path="kernel/xiaomi/sm8735" remote="halouidevices" revision="seventeen" />
+<project name="android_kernel_xiaomi_sm8735-devicetrees" path="kernel/xiaomi/sm8735-devicetrees" remote="halouidevices" revision="seventeen" />
+<project name="android_kernel_xiaomi_sm8735-modules" path="kernel/xiaomi/sm8735-modules" remote="halouidevices" revision="seventeen" />
+
+<project name="android_vendor_xiaomi_onyx" path="vendor/xiaomi/onyx" remote="codeberg" revision="seventeen" />
+<project name="android_vendor_xiaomi_onyx-miuicamera" path="vendor/xiaomi/onyx-miuicamera" remote="codeberg" revision="seventeen" />
+
+</manifest>

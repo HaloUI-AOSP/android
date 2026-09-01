@@ -16,6 +16,12 @@
   <remote  name="haloui"
            fetch="https://github.com/HaloUI-AOSP" />
 
+  <remote  name="halouidevices"
+           fetch="https://github.com/HaloUI-Devices" />
+
+  <remote  name="codeberg"
+           fetch="https://codeberg.org/zenin1504" />
+
   <default revision="refs/heads/lineage-24.0"
            remote="github"
            sync-c="true"
@@ -1105,6 +1111,7 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
+  <include name="snippets/devices.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/haloui.xml" />
   <include name="snippets/remove.xml" />
