@@ -1112,7 +1112,7 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <include name="snippets/devices.xml" />
+  <!-- <include name="snippets/devices.xml" /> -->
   <include name="snippets/lineage.xml" />
   <include name="snippets/haloui.xml" />
 </manifest>
