@@ -27,6 +27,9 @@
 <project name="android_vendor_gapps" path="vendor/gapps" remote="haloui" revision="seventeen" />
 <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="haloui" revision="seventeen" />
 
+<!-- Packages -->
+<project name="android_packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="haloui" revision="seventeen" />
+
 <!-- Fork Hals -->
 <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" remote="haloui" revision="seventeen" />
 <project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" remote="haloui" revision="seventeen" />
