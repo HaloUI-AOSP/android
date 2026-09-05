@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remotes -->
+  <remote  name="haloui-devices"
+           fetch="https://github.com/HaloUI-Devices"
+           revision="seventeen" />
+
+  <remote  name="codeberg"
+           fetch="https://codeberg.org/zenin1504"
+           revision="seventeen" />
+
 <!-- Remove -->
 <remove-project path="frameworks/base" />
 <remove-project path="frameworks/native" />
