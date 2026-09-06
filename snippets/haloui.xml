@@ -29,16 +29,16 @@
 <project path="system/fs/fs_mgr" remote="haloui" name="android_system_fs_fs_mgr" groups="pdk" />
 
 <!-- Vendor -->
-<project name="android_vendor_lineage" path="vendor/lineage" remote="haloui" revision="lineage-24.0" />
+<project name="android_vendor_lineage" path="vendor/lineage" remote="haloui" />
 
 <!-- Misc -->
-<project name="android_vendor_microg" path="vendor/microg" remote="haloui" revision="seventeen" />
-<project name="android_vendor_gapps" path="vendor/gapps" remote="haloui" revision="seventeen" />
-<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="haloui" revision="seventeen" />
+<project name="android_vendor_microg" path="vendor/microg" remote="haloui" />
+<project name="android_vendor_gapps" path="vendor/gapps" remote="haloui" />
+<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="haloui" />
 
 <!-- Fork Hals -->
-<project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" remote="haloui" revision="seventeen" />
-<project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" remote="haloui" revision="seventeen" />
-<project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" remote="haloui" revision="seventeen" />
+<project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" remote="haloui" />
+<project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" remote="haloui" />
+<project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" remote="haloui" />
 
 </manifest>

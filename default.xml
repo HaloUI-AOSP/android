@@ -15,7 +15,7 @@
 
   <remote  name="haloui"
            fetch="https://github.com/HaloUI-AOSP"
-           revision="refs/heads/lineage-24.0" />
+           revision="refs/heads/seventeen" />
 
   <default revision="refs/heads/lineage-24.0"
            remote="github"
