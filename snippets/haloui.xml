@@ -13,6 +13,9 @@
 <!-- Remove -->
 <remove-project path="build/make" />
 <remove-project path="bootable/recovery" />
+<remove-project path="device/lineage/sepolicy" />
+<remove-project path="external/bouncycastle" />
+<remove-project path="external/wpa_supplicant_8" />
 <remove-project path="frameworks/base" />
 <remove-project path="frameworks/native" />
 <remove-project path="lineage-sdk" />
@@ -48,6 +51,11 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+<!-- External -->
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="haloui" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="haloui" />
+
+
 <!-- Frameworks -->
 <project name="android_frameworks_base" path="frameworks/base" remote="haloui" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
 <project name="android_frameworks_native" path="frameworks/native" remote="haloui" groups="pdk,sysui-studio"  />
@@ -64,6 +72,7 @@
 <project name="android_vendor_haloui" path="vendor/haloui" remote="haloui" />
 
 <!-- Misc -->
+<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
 <project name="android_vendor_microg" path="vendor/microg" remote="haloui" />
 <project name="android_vendor_gapps" path="vendor/gapps" remote="haloui" />
 <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="haloui" />
