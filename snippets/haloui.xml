@@ -70,6 +70,7 @@
 <!-- Vendor -->
 <project name="android_vendor_lineage" path="vendor/lineage" remote="haloui" />
 <project name="android_vendor_haloui" path="vendor/haloui" remote="haloui" />
+<project name="official_devices" path="vendor/official_devices" remote="haloui" revision="master" />
 
 <!-- Misc -->
 <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
