@@ -45,6 +45,10 @@ TARGET_USES_KAWASE2_BLUR := true
 ```
 TARGET_DISABLE_PIHOOKS := true 
 ```
+- Build with gapps(MindTheGapps), if unset will build with microg
+```
+TARGET_BUILD_GAPPS := true
+```
 
 Credits:
 ---
