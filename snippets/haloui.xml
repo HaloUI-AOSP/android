@@ -10,10 +10,6 @@
            fetch="https://codeberg.org/zenin1504"
            revision="seventeen" />
 
-  <remote  name="haloui"
-           fetch="https://github.com/HaloUI-AOSP"
-           revision="seventeen" />
-
 <!-- Remove -->
 <remove-project path="build/make" />
 <remove-project path="bootable/recovery" />
@@ -87,5 +83,10 @@
 <project name="android_vendor_gapps" path="vendor/gapps" remote="haloui" />
 <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="haloui" />
 <project path="lineage-sdk" name="android_lineage-sdk"  remote="haloui" />
+
+<!-- Fork Hals -->
+<project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" remote="haloui" />
+<project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" remote="haloui" />
+<project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" remote="haloui" />
 
 </manifest>
