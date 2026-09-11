@@ -1,3 +1,5 @@
+haloUI
+---
 # Initialize local repository
 ```
 repo init -u https://github.com/HaloUI-AOSP/android.git -b seventeen --git-lfs
@@ -24,3 +26,33 @@ breakfast codename
 ```bash
 m bacon
 ```
+
+Build Flags:
+---
+- Face Unlock
+```
+TARGET_SUPPORTS_FACE_UNLOCK := true
+```
+- Animation fix for low-mid mtk devices
+```
+PERF_ANIM_OVERRIDE := true
+```
+- Use Kawase2 Blur Algorithm
+```
+TARGET_USES_KAWASE2_BLUR := true
+```
+- Disable PIHooks(For devices with fenrir)
+```
+TARGET_DISABLE_PIHOOKS := true 
+```
+
+Credits:
+---
+- [LineageOS](https://github.com/LineageOS)
+- [crDroid](https://github.com/crdroidandroid)
+- [YAAP](https://github.com/yaap)
+- [AxionAOSP](https://github.com/AxionAOSP)
+- [VoltageOS](https://github.com/VoltageOS)
+- [AOSPA](https://github.com/AOSPA)
+- [Lunaris-AOSP](https://github.com/Lunaris-AOSP)
+
