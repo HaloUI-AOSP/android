@@ -29,6 +29,7 @@
 <remove-project path="system/fs/fs_mgr" />
 <remove-project path="system/sepolicy" />
 <remove-project path="system/update_engine" />
+<remove-project path="system/vold" />
 <remove-project path="vendor/lineage" />
 <remove-project path="hardware/qcom-caf/sm8750/audio/pal" />
 <remove-project path="hardware/qcom-caf/sm8750/audio/primary-hal" />
@@ -72,6 +73,7 @@
 <project path="system/fs/fs_mgr" remote="haloui" name="android_system_fs_fs_mgr" groups="pdk" />
 <project path="system/sepolicy" name="android_system_sepolicy" remote="haloui" groups="pdk" />
 <project path="system/update_engine" name="android_system_update_engine" remote="haloui" groups="pdk" />
+<project path="system/vold" name="android_system_vold" remote="haloui" groups="pdk" />
 
 <!-- Vendor -->
 <project name="android_vendor_lineage" path="vendor/lineage" remote="haloui" />
