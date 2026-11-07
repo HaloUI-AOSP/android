@@ -10,6 +10,10 @@
            fetch="https://codeberg.org/zenin1504"
            revision="seventeen" />
 
+  <remote  name="forgejo"
+           fetch="https://zenin.crwnd.dev/haloUI"
+           revision="seventeen" />
+
 <!-- Remove -->
 <remove-project path="build/make" />
 <remove-project path="bootable/recovery" />
@@ -92,7 +96,7 @@
 <!-- Misc -->
 <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
 <project name="android_vendor_microg" path="vendor/microg" remote="haloui" />
-<project name="android_vendor_google_gms" path="vendor/google/gms" remote="haloui" />
+<project name="android_vendor_google_gms" path="vendor/google/gms" remote="forgejo" />
 <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="haloui" />
 <project path="lineage-sdk" name="android_lineage-sdk"  remote="haloui" />
 
